@@ -27,26 +27,6 @@
         </li>
     </ul>
 </div>
-<script>
-    var app = angular.module('app', []);
-    app.controller('postsController', function($scope) {
-        $scope.addPost = function() {
-            if($scope.postBody) {
-                $scope.posts.unshift({
-                    username: 'routine',
-                    body: $scope.postBody
-                });
-            };
-            $scope.postBody = null;
-        };
-
-        $scope.posts = [
-            {
-                username: 'routine',
-                body: 'Hello World!'
-            }
-        ];
-    });
-</script>
+<script src="/app.js"></script>
 </body>
 </html>

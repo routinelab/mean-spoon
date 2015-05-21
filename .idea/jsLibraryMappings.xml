@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{angular, angularjs-DefinitelyTyped, bootstrap-DefinitelyTyped, express-DefinitelyTyped, mongoose-DefinitelyTyped}" />
+    <file url="file://$PROJECT_DIR$" libraries="{mean-spoon node_modules}" />
+    <file url="file://$PROJECT_DIR$/controllers/static.js" libraries="{Node.js Globals}" />
+    <file url="file://$PROJECT_DIR$/db.js" libraries="{Node.js Globals}" />
+    <file url="file://$PROJECT_DIR$/models/post.js" libraries="{Node.js Globals}" />
+    <file url="file://$PROJECT_DIR$/server.js" libraries="{Node.js Globals}" />
+    <file url="PROJECT" libraries="{angular, angularjs-DefinitelyTyped, bootstrap-DefinitelyTyped, express-DefinitelyTyped, mongodb-DefinitelyTyped, mongoose-DefinitelyTyped}" />
   </component>
 </project>
