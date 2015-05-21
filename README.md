@@ -1,5 +1,5 @@
 # mean-spoon
-Mean-Sample Test Project
+MEAN 스택을 사용한 모던 웹 개발 입문 - 정리
 
 ## bootstrip css CDN 
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css
