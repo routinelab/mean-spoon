@@ -11,9 +11,9 @@ https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js
 
 
 
-## Chapter 5 - error
+## Chapter 5 - 소스수정
     #static.js
     res.sendfile('laytouts/posts.html');
     ->
     var path = required('path');
-    res.sendFile(paht.resolve('layouts/posts.html'));
+    res.sendFile(paht.resolve('layouts/posts.html')); // express deprecated res.sendfile: Use res.sendFile
