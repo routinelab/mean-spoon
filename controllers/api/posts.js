@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
         .exec(function (err, posts) {
             if (err) return next(err);
             res.json(posts);
-        })
+        });
 });
 
 router.post('/', function (req, res, next) {
@@ -19,7 +19,7 @@ router.post('/', function (req, res, next) {
     post.save(function (err, post) {
         if (err) return next(err);
         res.status(201).json(post);
-    })
+    });
 });
 
 
