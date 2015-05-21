@@ -16,4 +16,4 @@ https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js
     res.sendfile('laytouts/posts.html');
     ->
     var path = required('path');
-    res.sendFile(paht.resolve('layouts/posts.html')); // express deprecated res.sendfile: Use res.sendFile
+    res.sendFile(path.resolve('layouts/posts.html')); // express deprecated res.sendfile: Use res.sendFile
