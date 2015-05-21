@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="app">
+<html ng-app="app" ng-controller="applicationController">
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
@@ -16,6 +16,9 @@
             <li><a href="/#/register">Register</a></li>
             <li><a href="/#/login">Login</a></li>
         </ul>
+        <p ng-if="currentUser" class="navbar-text navbar-right">
+            Signed in as {{ currentUser.username }}
+        </p>
     </div>
 </div>
 <div ng-view class="container"></div>
